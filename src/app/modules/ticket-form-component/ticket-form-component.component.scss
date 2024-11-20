@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh; 
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.ticketForm {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.example-full-width {
+  width: 100%;
+}
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+mat-label {
+  font-size: 14px;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}

@@ -1,27 +1,67 @@
-# TicketManagement
+TicketManagement
+|
+This project was generated with Angular CLI version 18.2.4.
+|
+Development Setup
+|
+Running the App with JSON Server
+|
+Install JSON Server (if not already installed): npm install -g json-server
+|
+Run the JSON Server for the db.json file: json-server --watch db.json --port 3000
+|
+Start the Angular Application: ng serve
+|
+Navigate to http://localhost:4200/ in your browser.
+.
+.
+.
+.
+.
+.
+.
+CRUD Operations :-
+|
+Create: New tickets can be added via the "Add data" button in the UI. Data is posted to the ticketConfirmation endpoint in db.json.
+|
+Read: The application fetches ticket data from the ticketConfirmation endpoint.
+|
+Update: The "Edit" button allows users to update ticket details, which are sent to the respective ticket in db.json.
+|
+Delete: The "Delete" button allows users to remove a ticket from the list and the db.json file.
+|
+|
+||
+|||
+||||
+|||||
+||||||
+|||||||
+||||||||
+       |
+       |
+       |
+       |
+       |
+       |
+       |__
+          |
+     |||||||||||
+    ||         ||
+   ||  O     O  ||
+   ||     ^     ||
+   ||    ---    ||
+    ||         ||
+     |||||||||||
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Note on the Design
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+I’m not the best designer 😁, so the dropdown might look a bit odd. It's more "dropped" than it should be! Working on improving it, but hey, the functionality is solid! 😅
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+thank u read till here !
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

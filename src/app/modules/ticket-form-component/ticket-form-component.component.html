@@ -1,0 +1,27 @@
+<div class="container">
+  <form [formGroup]="ticketForm" class="ticketForm">
+    <mat-form-field>
+      <mat-label>Trade Location</mat-label>
+      <mat-select formControlName="tradeLocation" required>
+        <mat-option value="USA">USA</mat-option>
+        <mat-option value="INDIA">INDIA</mat-option>
+        <mat-option value="RUSSIA">RUSSIA</mat-option>
+        <mat-option value="CHINA">CHINA</mat-option>
+        <mat-option value="UK">UK</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Source Account</mat-label>
+      <input matInput formControlName="sourceAccount" required>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Budget</mat-label>
+      <input matInput type="number" formControlName="budget" required>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="onSubmit()">Save</button>
+    <button mat-button color="primary" [routerLink]="'/'">Data List</button>
+  </form>
+</div>

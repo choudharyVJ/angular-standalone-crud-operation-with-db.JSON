@@ -1,0 +1,52 @@
+{
+  "ticketConfirmation": [
+    {
+      "id": "3",
+      "tradeLocation": "RUSSIA",
+      "sourceAccount": "user_account_789",
+      "budget": 20000,
+      "dates": {
+        "startDate": "2024-11-21",
+        "endDate": "2024-11-30"
+      }
+    },
+    {
+      "tradeLocation": "INDIA",
+      "sourceAccount": "user_account_101",
+      "budget": 250000,
+      "id": "4"
+    },
+    {
+      "id": "97d4",
+      "tradeLocation": "RUSSIA",
+      "sourceAccount": "testing",
+      "budget": 5500,
+      "dates": {
+        "startDate": "2024-11-20",
+        "endDate": "2024-11-20"
+      }
+    },
+    {
+      "id": "14ec",
+      "tradeLocation": "USA",
+      "sourceAccount": "user_account_123",
+      "budget": 1000,
+      "dates": {
+        "startDate": "2024-11-20",
+        "endDate": "2024-11-20"
+      }
+    },
+    {
+      "tradeLocation": "RUSSIA",
+      "sourceAccount": "dsadsads",
+      "budget": 522233110,
+      "id": "e883"
+    },
+    {
+      "id": "2d5f",
+      "tradeLocation": "INDIA",
+      "sourceAccount": "dasdsad",
+      "budget": 95123
+    }
+  ]
+}

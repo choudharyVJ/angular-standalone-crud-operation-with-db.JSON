@@ -93,10 +93,13 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [ ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1c9cf61b-b1dd-4b87-beb2-1f5293e32e11"
   }
 }
